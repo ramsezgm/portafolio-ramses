@@ -4,7 +4,7 @@ import RamsesImg from '../assets/Ramses_Gutierrez.jpg';
 const Portada = () => {
   return (
     <div className="min-h-screen bg-blue-100 flex items-center justify-center">
-      <div className="bg-white p-5 text-center max-w-2xl rounded-lg mb-12"> {/* Aumentado el margen a mb-12 */}
+      <div className="bg-white p-6 text-center max-w-2xl rounded-lg mb-12 max-h-screen overflow-y-auto">
         <h1 className="text-3xl font-bold">UNIVERSIDAD TECNOLÓGICA DE PANAMÁ</h1>
         <h2 className="text-xl font-semibold">FACULTAD DE INGENIERÍA DE SISTEMAS COMPUTACIONALES</h2>
         <h3 className="text-lg font-semibold">DEPARTAMENTO DE PROGRAMACIÓN</h3>
