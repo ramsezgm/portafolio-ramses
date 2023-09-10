@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Para ocultar barras de desplazamiento si es necesario */
+    font-family: 'Roboto', sans-serif;
+}
+
+
