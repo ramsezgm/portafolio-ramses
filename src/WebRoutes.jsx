@@ -17,9 +17,9 @@ const WebRoutes = () => {
       <Route path="/portada" element={<Portada/>} />
       <Route path="/desc-curso" element={<DescCurso/>} />
       <Route path="/presentacion" element={<Presentacion/>}/>
-      <Route path="/asignaciones" component={Asigs} />
-      <Route path="/clases" component={Clases} />
-      <Route path="/conclusion" component={Conclusion} />
+      <Route path="/asignaciones" element={<Asigs/>} />
+      <Route path="/clases" element={<Clases/>} />
+      <Route path="/conclusion" element={<Conclusion/>} />
     </Routes>
   );
 };
