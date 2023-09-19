@@ -5,6 +5,9 @@ body {
     padding: 0;
     overflow: hidden; /* Para ocultar barras de desplazamiento si es necesario */
     font-family: 'Roboto', sans-serif;
+
+    overflow-y: auto;
+    height: 100%;
 }
 
 

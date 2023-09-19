@@ -1,12 +1,9 @@
 //import React from 'react';
 import { Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
-import Portada from './pages/Portada';
-import DescCurso from './pages/DescCurso';
-import Presentacion from './pages/Presentacion';
-import Asigs from './pages/Asigs';
-import Clases from './pages/Clases';
-import Conclusion from './pages/Conclusion';
+import AboutMe from './pages/AboutMe';
+import ContactMe from './pages/ContactMe';
+import Portfolio from './pages/Portfolio';
 
 
 
@@ -14,12 +11,9 @@ const WebRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/portada" element={<Portada/>} />
-      <Route path="/desc-curso" element={<DescCurso/>} />
-      <Route path="/presentacion" element={<Presentacion/>}/>
-      <Route path="/asignaciones" element={<Asigs/>} />
-      <Route path="/clases" element={<Clases/>} />
-      <Route path="/conclusion" element={<Conclusion/>} />
+      <Route path="/about-me" element={<AboutMe/>} />
+      <Route path="/contact-me" element={<ContactMe/>} />
+      <Route path="/portfolio" element={<Portfolio/>}/>
     </Routes>
   );
 };

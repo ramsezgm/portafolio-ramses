@@ -4,12 +4,9 @@ import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 
 const Header = () => {
   const Links = [
-    { name: "PORTADA", link: "/portada" },
-    { name: "DESCRIPCION CURSO", link: "/desc-curso" },
-    { name: "PRESENTACION", link: "/presentacion" },
-    { name: "ASIGNACIONES", link: "/asignaciones" },
-    { name: "CLASES", link: "/clases" },
-    { name: "CONCLUSION", link: "/conclusion" },
+    { name: "About Me", link: "/about-me" },
+    { name: "Portfolio", link: "/portfolio" },
+    { name: "Contact Me", link: "/contact-me" },
   ];
 
   const [open, setOpen] = useState(false);
