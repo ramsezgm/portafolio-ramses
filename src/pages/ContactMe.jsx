@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { FaEnvelope, FaWhatsapp, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Importa los iconos de react-icons
 import contactImage from '../assets/contact.png'; // Reemplaza 'contact-image.jpg' con la URL o importación de tu imagen de fondo
 

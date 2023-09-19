@@ -1,12 +1,13 @@
 //import React from 'react';
 import imgRam from '../assets/Ramses_Gutierrez.jpg';
+import curriculumPDF from '../assets/RamsesGutierrezCV.pdf'; // Importa el archivo PDF
 
 const AboutMe = () => {
+
   return (
     <div className="bg-gray-100 min-h-screen flex justify-center items-start pt-16 pb-16">
       <div className="max-w-4xl p-8 bg-white rounded-lg shadow-lg">
         <div className="flex flex-col md:flex-row items-center">
-          {/* Imagen circular */}
           <div className="w-40 h-40 md:w-44 md:h-44 rounded-full overflow-hidden flex-shrink-0">
             <img
               className="w-full h-full object-cover"
@@ -15,7 +16,6 @@ const AboutMe = () => {
             />
           </div>
 
-          {/* Información de texto */}
           <div className="mt-4 md:mt-0 md:ml-6">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
               ¡Hola! Soy Ramsés Gutiérrez
@@ -29,10 +29,15 @@ const AboutMe = () => {
               Además de programar, disfruto de la música como fuente de
               inspiración, y la ciencia ficción en mis momentos de lectura y
               películas.
-            </p>
-            <button className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-medium text-base md:text-lg">
+            </p><br />
+            {/* Enlace para descargar el CV con margen superior */}
+            <a
+              href={curriculumPDF}
+              download="RamsesGutierrezCV.pdf"
+              className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-medium text-base md:text-lg"
+            >
               Descargar CV
-            </button>
+            </a>
           </div>
         </div>
 
@@ -100,7 +105,7 @@ const AboutMe = () => {
                 Bodeguero
               </h3>
               <p className="text-gray-600">Distexsa</p>
-              <p className="text-gray-600">Enero 2023 - Abril 2024</p>
+              <p className="text-gray-600">Enero 2023 - Marzo 2023</p>
               <p className="text-gray-700 mt-2 text-base md:text-lg">
                 Las labores que este rol incluía eran la recepción de mercancía, verificación y el almacenamiento de la misma. Además de la preparación de pedidos para los clientes.
               </p>
